@@ -1,0 +1,41 @@
+{
+  "name": "desaikap/ip-quality",
+  "homepage": "https://www.ipqualityscore.com/",
+  "description": "IP Quality Service Api",
+  "keywords": [
+    "farud IP detection",
+    "IPQS",
+    "ipqualityscore.com",
+    "Email existance",
+    "Email verification"
+  ],
+  "type": "library",
+  "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/desaikap/ip-quality/issues",
+        "source": "https://www.ipqualityscore.com/email-verification"
+    },
+  "authors": [
+    {
+      "name": "Kalpesh Desai",
+      "email": "desaikalpesh34@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "~2.0.7",
+    "php": ">=7.1",
+    "symfony/http-client": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "desaikap\\IPQualityScore\\": ""
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
